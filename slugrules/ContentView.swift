@@ -10,12 +10,18 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
         }
         .padding()
+    }
+    
+    @ViewBuilder
+    func leftHeroView() -> some View {
+        HStack {
+            Text("left hero name")
+            Text("HP")
+            
+        }
     }
 }
 
@@ -24,3 +30,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
