@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Fighter: Character, Combatant {
+struct Fighter: Character, Killable, Combatant {
     var name: String
     var level: Int
     var currentHealth: Int

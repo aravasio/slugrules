@@ -12,9 +12,8 @@
 		578579E42A232801003DE42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578579E32A232801003DE42E /* Assets.xcassets */; };
 		578579E82A232801003DE42E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578579E72A232801003DE42E /* Preview Assets.xcassets */; };
 		578579F02A232940003DE42E /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578579EF2A232940003DE42E /* Character.swift */; };
-		578579F52A232B1A003DE42E /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578579F42A232B1A003DE42E /* Creature.swift */; };
+		578579F52A232B1A003DE42E /* Magical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578579F42A232B1A003DE42E /* Magical.swift */; };
 		578579F82A232BB0003DE42E /* Killable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578579F72A232BB0003DE42E /* Killable.swift */; };
-		578579FA2A232C01003DE42E /* NonCreature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578579F92A232C01003DE42E /* NonCreature.swift */; };
 		578579FC2A232C2D003DE42E /* Combatant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578579FB2A232C2D003DE42E /* Combatant.swift */; };
 		578579FE2A232DD4003DE42E /* Spellcaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578579FD2A232DD4003DE42E /* Spellcaster.swift */; };
 		57857A002A232DFF003DE42E /* Fighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578579FF2A232DFF003DE42E /* Fighter.swift */; };
@@ -31,9 +30,8 @@
 		578579E52A232801003DE42E /* slugrules.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = slugrules.entitlements; sourceTree = "<group>"; };
 		578579E72A232801003DE42E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		578579EF2A232940003DE42E /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		578579F42A232B1A003DE42E /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		578579F42A232B1A003DE42E /* Magical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magical.swift; sourceTree = "<group>"; };
 		578579F72A232BB0003DE42E /* Killable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Killable.swift; sourceTree = "<group>"; };
-		578579F92A232C01003DE42E /* NonCreature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonCreature.swift; sourceTree = "<group>"; };
 		578579FB2A232C2D003DE42E /* Combatant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combatant.swift; sourceTree = "<group>"; };
 		578579FD2A232DD4003DE42E /* Spellcaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spellcaster.swift; sourceTree = "<group>"; };
 		578579FF2A232DFF003DE42E /* Fighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fighter.swift; sourceTree = "<group>"; };
@@ -106,8 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				578579F72A232BB0003DE42E /* Killable.swift */,
-				578579F42A232B1A003DE42E /* Creature.swift */,
-				578579F92A232C01003DE42E /* NonCreature.swift */,
+				578579F42A232B1A003DE42E /* Magical.swift */,
 				578579FB2A232C2D003DE42E /* Combatant.swift */,
 				578579FD2A232DD4003DE42E /* Spellcaster.swift */,
 			);
@@ -217,10 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				578579FA2A232C01003DE42E /* NonCreature.swift in Sources */,
 				57857A002A232DFF003DE42E /* Fighter.swift in Sources */,
 				57857A0A2A23D3CA003DE42E /* Spell.swift in Sources */,
-				578579F52A232B1A003DE42E /* Creature.swift in Sources */,
+				578579F52A232B1A003DE42E /* Magical.swift in Sources */,
 				57857A052A233167003DE42E /* State.swift in Sources */,
 				578579F82A232BB0003DE42E /* Killable.swift in Sources */,
 				578579FC2A232C2D003DE42E /* Combatant.swift in Sources */,
